@@ -38,6 +38,7 @@ model = ElasticNetRegression(alpha=0.5, l1_ratio=0.3)
 model.fit(X_train, y_train)
 predictions = model.predict(X_test)
 ```
+---
 
 ## 4. Are there specific inputs the model struggles with?
 
